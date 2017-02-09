@@ -32,3 +32,20 @@
 [Слайд 10](http://melevir.com/static/styleru_py/slides/1.html?full#10):
 - Гит — система контроля версий.
 - Сдавать первую домашку нужно будет уже с помощью него.
+
+### О Питоне
+
+[Слайды 12-13](http://melevir.com/static/styleru_py/slides/1.html?full#12):
+- Итерировать по индексам не надо, можно ведь по элементам.
+
+[Слайды 14-15](http://melevir.com/static/styleru_py/slides/1.html?full#14):
+- Нужны и элементы, и индексы? Используйте [enumerate()](https://docs.python.org/3/library/functions.html#enumerate).
+
+[Слайды 18-19](http://melevir.com/static/styleru_py/slides/1.html?full#18):
+- Начальный и конечный индекс нужны так часто, что их можно не писать.
+
+[Слайды 24-25](http://melevir.com/static/styleru_py/slides/1.html?full#24):
+- Так можно пройти по всем элементам с четными индексами.
+
+[Слайды 28](http://melevir.com/static/styleru_py/slides/1.html?full#28):
+- Срезы работают на любых последовательностях.
