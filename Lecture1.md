@@ -47,5 +47,5 @@
 [Слайды 24-25](http://melevir.com/static/styleru_py/slides/1.html?full#24):
 - Так можно пройти по всем элементам с четными индексами.
 
-[Слайды 28](http://melevir.com/static/styleru_py/slides/1.html?full#28):
+[Слайд 28](http://melevir.com/static/styleru_py/slides/1.html?full#28):
 - Срезы работают на любых последовательностях.
