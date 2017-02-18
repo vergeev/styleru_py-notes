@@ -62,3 +62,29 @@
 
 [Слайд 29](http://melevir.com/static/styleru_py/slides/2.html?full#29):
 - ```pip freeze``` позволяет автоматически заморозить зависимости.
+
+### Как гуглить
+[Слайд 31](http://melevir.com/static/styleru_py/slides/2.html?full#31):
+- Если мы в ответ на ваш вопрос говорим вам погуглить, это не означает, что мы вас посылаем. Просто это то, что стоило сделать в первую очередь.
+
+[Слайды 32-33](http://melevir.com/static/styleru_py/slides/2.html?full#32):
+- Чаще всего, гугл без всяких хитростей выдает нужный результат.
+
+[Слайд 34](http://melevir.com/static/styleru_py/slides/2.html?full#34):
+- Но если не получается просто, перед тем, как спрашивать, нужно попробовать еще несколько вещей. И вот почему.
+
+[Слайды 35-36](http://melevir.com/static/styleru_py/slides/2.html?full#35):
+- Например, над вами могут подшутить, скинув ссылку на [Let me google that for you](http://ru.lmgtfy.com/?q=let+me+google+that+for+you).
+
+[Слайд 37](http://melevir.com/static/styleru_py/slides/2.html?full#37):
+- Скорее всего, на ваш вопрос уже ответили на Stack Overflow. Стоит поискать там. У SO есть активная русскоязычная версия, можно задать вопрос и там.
+
+[Слайд 42](http://melevir.com/static/styleru_py/slides/2.html?full#42):
+- У гугла есть много специальных символов, которые помогают найти нужную информацию.
+
+[Слайд 44](http://melevir.com/static/styleru_py/slides/2.html?full#44):
+- Кавычки помогают найти фразу целиком, без исправлений.
+
+[Слайд 47](http://melevir.com/static/styleru_py/slides/2.html?full#47):
+- Всё, что удалось нагуглить, можно использовать для последующих поисков.
+- Задавая вопрос, не забудьте упомянуть, что вы уже нашли и сделали.
