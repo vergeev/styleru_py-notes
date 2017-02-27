@@ -1,34 +1,34 @@
 # Лекция третья
 **Дисклеймер:** пишу по памяти, могу соврать. Чтобы поправить, сделайте пулл-реквест.
-Слайды [тут](http://melevir.com/static/styleru_py/slides/3.html).
+Слайды [тут](http://melevir.com/styleru_py/slides/3.html).
 
 ### Сложность алгоритмов
-[Слайд 4](http://melevir.com/static/styleru_py/slides/3.html?full#4):
+[Слайд 4](http://melevir.com/styleru_py/slides/3.html?full#4):
 - Это очень краткий обзор темы. Чтобы глубже разобраться в ней, посмотрите ссылочки из почтовой рассылки.
 
-[Слайд 5](http://melevir.com/static/styleru_py/slides/3.html?full#5):
+[Слайд 5](http://melevir.com/styleru_py/slides/3.html?full#5):
 - Проблема: нам нужен способ узнать, как будет меняться время исполнения алгоритма в зависимости от размера входных данных.
 
-[Слайд 6](http://melevir.com/static/styleru_py/slides/3.html?full#6):
+[Слайд 6](http://melevir.com/styleru_py/slides/3.html?full#6):
 - Решение: считать количество операций, прямо в коде.
 
-[Слайд 7](http://melevir.com/static/styleru_py/slides/3.html?full#7):
+[Слайд 7](http://melevir.com/styleru_py/slides/3.html?full#7):
 - Кстати, иногда нельзя сделать так, чтобы алгоритм был одновременно оптимален и по памяти, и по времени исполнения. 
 - Например, можно считать расстояние от клетки до клетки по запросу (долгое решение), а можно хранить расстояние от каждой клетки до каждой клетки (быстрое решение, неэффективное по памяти).
 
-[Слайд 8-9](http://melevir.com/static/styleru_py/slides/3.html?full#8):
+[Слайд 8-9](http://melevir.com/styleru_py/slides/3.html?full#8):
 - Чтобы показать скорость алгоритма независимо от конкретной реализации (языка программирования, интерпретатора и прочих), используют big-O-нотацию.
 - Big-O (читается «о-большое») показывает нам, как примерно растет время исполнения/количество памяти по мере роста входных данных.
 - O(1) (читается «о-большое от единицы») означает, в частности, что с ростом n (размера входных данных) время исполнения не меняется.
 
-[Слайд 10](http://melevir.com/static/styleru_py/slides/3.html?full#10):
+[Слайд 10](http://melevir.com/styleru_py/slides/3.html?full#10):
 - Здесь размер входных данных n — это длина массива.
 - Посчитаем количество операций. В данном случае имеет смысл считать количество вызовов print(). 
 — Для n = 1, мы вызовем print() один раз. Для n = 2, два раза. Для n = 100, сто раз. То есть, количество операций растет как линейная функция от n.
 - Если бы у нас было два вызова к print() в цикле, это тоже была бы линейная функция, но с другим коэффициентом.
 - Чтобы обозначить, что время исполнения алгоритма у нас растет как линейная функция от n, мы говорим, что сложность алгоритма O(n).
 
-[Слайд 11](http://melevir.com/static/styleru_py/slides/3.html?full#11):
+[Слайд 11](http://melevir.com/styleru_py/slides/3.html?full#11):
 - Пусть у нас теперь на вход подается список, из m списков размера n.
 - m и n — это размеры входных данных (m — количество списков, n — их размер).
 - Снова будем считать количество вызовов print().
@@ -38,55 +38,55 @@
 - Обратите внимание, что если за n обозначить суммарное количество элементов во всех m списках, то сложность у нас будет O(n). Поэтому важно держать в голове, что именно имеется в виду под «эн».
 - Определяя сложность, мы не обращали внимание, каким языком пользуемся (print() мог бы быть printf(), cout, System.Console.WriteLine() и чем угодно еще.)
 
-[Слайды 12-13](http://melevir.com/static/styleru_py/slides/3.html?full#12):
+[Слайды 12-13](http://melevir.com/styleru_py/slides/3.html?full#12):
 - Вот так меняется время исполнения алгоритма в зависимости от того, какая функция находится в скобочках у «большого о».
 
 ### Стандартные структуры данных
-[Слайд 15](http://melevir.com/static/styleru_py/slides/3.html?full#15):
+[Слайд 15](http://melevir.com/styleru_py/slides/3.html?full#15):
 - IEEE-754 — это стандарт, по которому реализованы числа с плавающей точкой почти везде, в том числе и в Python.
 
-[Слайд 27](http://melevir.com/static/styleru_py/slides/3.html?full#27):
+[Слайд 27](http://melevir.com/styleru_py/slides/3.html?full#27):
 - Не имеет максимального или минимального значения. Когда числа становится невозможно хранить как числа, под капотом Python начинает их хранить как строки (для программиста это незаметно).
 
-[Слайд 30](http://melevir.com/static/styleru_py/slides/3.html?full#30):
+[Слайд 30](http://melevir.com/styleru_py/slides/3.html?full#30):
 - См. [хэширование](https://ru.wikipedia.org/wiki/%D0%A5%D0%B5%D1%88%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)
 
-[Слайд 31](http://melevir.com/static/styleru_py/slides/3.html?full#31):
+[Слайд 31](http://melevir.com/styleru_py/slides/3.html?full#31):
 - Если хэши двух разных значений равны, это называется коллизией.
 - Коллизии нарушают корректную работу структур данных, полагающихся на уникальность хэшей.
 - У хороших хэш-функций коллизий мало.
 
-[Слайд 33](http://melevir.com/static/styleru_py/slides/3.html?full#33):
+[Слайд 33](http://melevir.com/styleru_py/slides/3.html?full#33):
 - Существуют механизмы для борьбы с коллизиями. Они позволяют избежать повреждения данных, но ухудшают время работы.
 - Они уже встроены, например, в dict.
 
-[Слайд 38](http://melevir.com/static/styleru_py/slides/3.html?full#38):
+[Слайд 38](http://melevir.com/styleru_py/slides/3.html?full#38):
 - Строки неизменяемы, поэтому 'Hello' + ' ' + 'world!' создаст пять строк (включая промежуточные).
 - Поэтому строки лучше не конкатенировать, а использовать str.format, он осуществляет преобразования напрямую над сишными строками.
 
 ### Комментарии
-[Слайды 42-43](http://melevir.com/static/styleru_py/slides/3.html?full#42):
+[Слайды 42-43](http://melevir.com/styleru_py/slides/3.html?full#42):
 - Это примеры бесполезных комментариев.
 - Бесполезные комментарии делятся на три типа.
 
-[Слайд 44](http://melevir.com/static/styleru_py/slides/3.html?full#44):
-- Такие, как на [слайде 42](http://melevir.com/static/styleru_py/slides/3.html?full#42).
+[Слайд 44](http://melevir.com/styleru_py/slides/3.html?full#44):
+- Такие, как на [слайде 42](http://melevir.com/styleru_py/slides/3.html?full#42).
 
-[Слайд 45](http://melevir.com/static/styleru_py/slides/3.html?full#45):
-- Такие, как на [слайде 43](http://melevir.com/static/styleru_py/slides/3.html?full#43).
+[Слайд 45](http://melevir.com/styleru_py/slides/3.html?full#45):
+- Такие, как на [слайде 43](http://melevir.com/styleru_py/slides/3.html?full#43).
 
-[Слайд 46](http://melevir.com/static/styleru_py/slides/3.html?full#46):
+[Слайд 46](http://melevir.com/styleru_py/slides/3.html?full#46):
 - И такие.
 
-[Слайды 47-48](http://melevir.com/static/styleru_py/slides/3.html?full#47):
+[Слайды 47-48](http://melevir.com/styleru_py/slides/3.html?full#47):
 - Многие комментарии можно поместить в код.
 
 ### Коммуникационные навыки (soft skills)
-[Слайд 50](http://melevir.com/static/styleru_py/slides/3.html?full#50):
+[Слайд 50](http://melevir.com/styleru_py/slides/3.html?full#50):
 - На следующих слайдах будет нецензурная лексика.
 
-[Слайды 51-54](http://melevir.com/static/styleru_py/slides/3.html?full#51):
+[Слайды 51-54](http://melevir.com/styleru_py/slides/3.html?full#51):
 - Ни один из ответов, конечно, не был правильным.
 
-[Слайд 63](http://melevir.com/static/styleru_py/slides/3.html?full#63):
+[Слайд 63](http://melevir.com/styleru_py/slides/3.html?full#63):
 - На этом слайде нет пункта «все кругом мудаки, куда не глянь», поскольку он заслуживает отдельного рассказа.
