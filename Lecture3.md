@@ -80,3 +80,13 @@
 
 [Слайды 47-48](http://melevir.com/static/styleru_py/slides/3.html?full#47):
 - Многие комментарии можно поместить в код.
+
+### Коммуникационные навыки (soft skills)
+[Слайд 50](http://melevir.com/static/styleru_py/slides/3.html?full#50):
+- На следующих слайдах будет нецензурная лексика.
+
+[Слайды 51-54](http://melevir.com/static/styleru_py/slides/3.html?full#51):
+- Ни один из ответов, конечно, не был правильным.
+
+[Слайд 63](http://melevir.com/static/styleru_py/slides/3.html?full#63):
+- На этом слайде нет пункта «все кругом мудаки, куда не глянь», поскольку он заслуживает отдельного рассказа.
