@@ -61,5 +61,22 @@
 - Они уже встроены, например, в dict.
 
 [Слайд 38](http://melevir.com/static/styleru_py/slides/3.html?full#38):
-- Строки не изменяемы, поэтому 'Hello' + ' ' + 'world!' создаст пять строк (включая промежуточные).
+- Строки неизменяемы, поэтому 'Hello' + ' ' + 'world!' создаст пять строк (включая промежуточные).
 - Поэтому строки лучше не конкатенировать, а использовать str.format, он осуществляет преобразования напрямую над сишными строками.
+
+### Комментарии
+[Слайды 42-43](http://melevir.com/static/styleru_py/slides/3.html?full#42):
+- Это примеры бесполезных комментариев.
+- Бесполезные комментарии делятся на три типа.
+
+[Слайд 44](http://melevir.com/static/styleru_py/slides/3.html?full#44):
+- Такие, как на [слайде 42](http://melevir.com/static/styleru_py/slides/3.html?full#42).
+
+[Слайд 45](http://melevir.com/static/styleru_py/slides/3.html?full#45):
+- Такие, как на [слайде 43](http://melevir.com/static/styleru_py/slides/3.html?full#43).
+
+[Слайд 46](http://melevir.com/static/styleru_py/slides/3.html?full#46):
+- И такие.
+
+[Слайды 47-48](http://melevir.com/static/styleru_py/slides/3.html?full#47):
+- Многие комментарии можно поместить в код.
