@@ -1,6 +1,5 @@
 # Лекция первая
-**Дисклеймер:** пишу по памяти, могу соврать. Чтобы поправить, сделайте пулл-реквест.
-Слайды [тут](http://melevir.com/static/styleru_py/slides/1.html).
+Все слайды [тут](http://melevir.com/static/styleru_py/slides/1.html).
 
 ### О курсе
 [Слайд 3](http://melevir.com/static/styleru_py/slides/1.html?full#3):

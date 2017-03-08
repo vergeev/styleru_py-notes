@@ -1,6 +1,5 @@
 # Лекция третья
-**Дисклеймер:** пишу по памяти, могу соврать. Чтобы поправить, сделайте пулл-реквест.
-Слайды [тут](http://melevir.com/styleru_py/slides/3.html).
+Все слайды [тут](http://melevir.com/styleru_py/slides/3.html).
 
 ### Сложность алгоритмов
 [Слайд 4](http://melevir.com/styleru_py/slides/3.html?full#4):

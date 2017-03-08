@@ -1,6 +1,5 @@
 # Лекция вторая
-**Дисклеймер:** пишу по памяти, могу соврать. Чтобы поправить, сделайте пулл-реквест.
-Слайды [тут](http://melevir.com/static/styleru_py/slides/2.html).
+Все слайды [тут](http://melevir.com/static/styleru_py/slides/2.html).
 
 ### Функции
 [Слайды 3-4](http://melevir.com/static/styleru_py/slides/2.html?full#3):
