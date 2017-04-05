@@ -1,5 +1,5 @@
 # Лекция пятая
-Все слайды [тут](http://melevir.com/styleru_py/slides/5.html).
+Все слайды [тут](http://melevir.com/static/styleru_py/slides/5.html).
 
 # Сообщения к коммитам
 [Слайд 6](http://melevir.com/static/styleru_py/slides/5.html?full#6):
