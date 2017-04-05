@@ -1,5 +1,5 @@
 # Лекция шестая
-Все слайды [тут](http://melevir.com/styleru_py/slides/6.html).
+Все слайды [тут](http://melevir.com/static/styleru_py/slides/6.html).
 
 # ХТМЛ и Яваскрипт
 
